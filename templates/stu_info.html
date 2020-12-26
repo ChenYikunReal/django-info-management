@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息显示</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>生日</td>
+        <td>邮箱</td>
+        <td>国籍</td>
+    </tr>
+    {% for user in list %}
+        <tr>
+            <td>{{user.uid}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.birthday}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.country}}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

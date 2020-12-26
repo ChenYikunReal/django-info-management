@@ -1,5 +1,7 @@
 # 简单学生信息管理系统
 
+![](images/python-django.png)
+
 ## 开发技术
 | 技术名称 | 技术版本 |
 | :---: | :---: |
@@ -48,7 +50,7 @@ manage.py runserver 80      # 指定端口
 ```
 
 ## 运行示例
-![在这里插入图片描述](start.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
+![](images/start.png)
 
 ## 项目结构解读
 |---info_management_django # 项目的根目录<br/>
@@ -61,3 +63,10 @@ manage.py runserver 80      # 指定端口
 |---static # 存放css、js等静态文件<br/>
 |---manage.py # 管理文件<br/>
 |---README.md # 项目的入门手册<br/>
+
+## 2020-12-26更新日志
+已经初步可运行，但会有偶发性错误！以后再来挖坟！
+
+![](images/hello.png)
+
+![](images/get_stu_info.png)
